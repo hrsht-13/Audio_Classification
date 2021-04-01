@@ -17,6 +17,8 @@ librosa normalise the entire dataset and it will give the audios with single sam
 comparision with scipy --scipy gives the actual sample rate.
 
 advantage of using librosa- 
-1. it tries to converge the signals i.e. into mono.
+1. it tries to converge the signals i.e. into mono (single channel).
 2. it can represent an audio signal with respect to a normalized pattern [-1,1].
 3. it converts the sample rate to 22 kH.
+
+To extract features from the normalized audio file we will use  Mel-Frequency Cepstral Coeefficients(MFCC)
