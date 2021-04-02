@@ -22,7 +22,7 @@ advantage of using librosa-
 3. it converts the sample rate to 22 kH.
 
 To extract features from the normalized audio file we will use  Mel-Frequency Cepstral Coeefficients(MFCC)
-setting n_mfcc=40 (to generate 40 features).
+###### setting n_mfcc=40 (to generate 40 features).
 
 -> Apply ML models. 
 -> Lazy Predict to test all the models. 
