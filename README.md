@@ -21,9 +21,9 @@ advantage of using librosa-
 2. it can represent an audio signal with respect to a normalized pattern [-1,1].
 3. it converts the sample rate to 22 kH.
 
-To extract features from the normalized audio file we will use  Mel-Frequency Cepstral Coeefficients(MFCC)
+To extract features from the normalized audio file we will use  Mel-Frequency Cepstral Coeefficients(MFCC);
 setting n_mfcc=40 (to generate 40 features).
 
 Apply ML models. 
-Lazy Predict to test all the models. 
-ExtraTress gave 92% accuracy.
+Lazy Predict to test all the models. ;
+ExtraTress gave 92% accuracy.;
